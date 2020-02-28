@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BogusTestData/1.0.0": {
+        "dependencies": {
+          "AutoBogus": "2.8.0",
+          "Bogus": "29.0.1",
+          "Faker": "1.2.0",
+          "NaughtyStrings.Bogus": "2.1.0",
+          "WaffleGenerator.Bogus": "4.0.2"
+        },
+        "runtime": {
+          "BogusTestData.dll": {}
+        }
+      },
+      "AutoBogus/2.8.0": {
+        "dependencies": {
+          "Bogus": "29.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoBogus.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Bogus/29.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "29.0.1.0",
+            "fileVersion": "29.0.1.0"
+          }
+        }
+      },
+      "Faker/1.2.0": {
+        "runtime": {
+          "lib/Faker.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NaughtyStrings.Bogus/2.1.0": {
+        "dependencies": {
+          "Bogus": "29.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NaughtyStrings.Bogus.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "WaffleGenerator/4.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/WaffleGenerator.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "WaffleGenerator.Bogus/4.0.2": {
+        "dependencies": {
+          "Bogus": "29.0.1",
+          "WaffleGenerator": "4.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WaffleGenerator.Bogus.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BogusTestData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoBogus/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x/SowB2ZQUigduL3Okg0ioV1/skTZz6a8ew9gpjf0kdNY/RgfbEg//6oBcxwaarWRg4TLcVjnJUIQcSGx+jpKA==",
+      "path": "autobogus/2.8.0",
+      "hashPath": "autobogus.2.8.0.nupkg.sha512"
+    },
+    "Bogus/29.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gpNhpnv2K1f06Dhx+ky5YP649aViUgVDPbr48hgr8Jtilg8Oylx/kFeUKMnqw8tPROOmJEbSXob2WSYwqXeqZg==",
+      "path": "bogus/29.0.1",
+      "hashPath": "bogus.29.0.1.nupkg.sha512"
+    },
+    "Faker/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FvYt17xHV8R0DGb3O5scLtiWK8RrBuG0feDAWuzdM1l1bS62JOuhNgf4BgJthGFYZrEMKoU5XgCODLtXpS0cvw==",
+      "path": "faker/1.2.0",
+      "hashPath": "faker.1.2.0.nupkg.sha512"
+    },
+    "NaughtyStrings.Bogus/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eLE+iw7LKoIdntKIQgILV0VgueMcLQJ6CiZB7orVIT2hi0s6v5nHB/2n3sHipNrLYbdyyGZ52ZuhF8UtK/bqZQ==",
+      "path": "naughtystrings.bogus/2.1.0",
+      "hashPath": "naughtystrings.bogus.2.1.0.nupkg.sha512"
+    },
+    "WaffleGenerator/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2akStk8Rr4Mv5wgcK+rJdwgIErHrrij8V4KYNMPjZ15fr3Nbc1ncwp0SzL7EXHWugShi0rgA+MYRBK9hNBIItw==",
+      "path": "wafflegenerator/4.0.2",
+      "hashPath": "wafflegenerator.4.0.2.nupkg.sha512"
+    },
+    "WaffleGenerator.Bogus/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gfF6sYYtJPSOip8FTdJIwG/ELxQgboFIDLMD7il8HbMIsKkuyVWvKXL0i3WygtSH5sbyVozGmwu0naCdrGxNg==",
+      "path": "wafflegenerator.bogus/4.0.2",
+      "hashPath": "wafflegenerator.bogus.4.0.2.nupkg.sha512"
+    }
+  }
+}

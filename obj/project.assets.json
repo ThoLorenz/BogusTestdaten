@@ -1,0 +1,257 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AutoBogus/2.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Bogus": "28.4.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoBogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoBogus.dll": {}
+        }
+      },
+      "Bogus/29.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
+      "Faker/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Faker.dll": {}
+        },
+        "runtime": {
+          "lib/Faker.dll": {}
+        }
+      },
+      "NaughtyStrings.Bogus/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Bogus": "28.4.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/NaughtyStrings.Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NaughtyStrings.Bogus.dll": {}
+        }
+      },
+      "WaffleGenerator/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WaffleGenerator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WaffleGenerator.dll": {}
+        }
+      },
+      "WaffleGenerator.Bogus/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Bogus": "26.0.2",
+          "WaffleGenerator": "4.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/WaffleGenerator.Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WaffleGenerator.Bogus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoBogus/2.8.0": {
+      "sha512": "x/SowB2ZQUigduL3Okg0ioV1/skTZz6a8ew9gpjf0kdNY/RgfbEg//6oBcxwaarWRg4TLcVjnJUIQcSGx+jpKA==",
+      "type": "package",
+      "path": "autobogus/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autobogus.2.8.0.nupkg.sha512",
+        "autobogus.nuspec",
+        "lib/net40/AutoBogus.dll",
+        "lib/netstandard1.3/AutoBogus.dll",
+        "lib/netstandard2.0/AutoBogus.dll",
+        "logo.png"
+      ]
+    },
+    "Bogus/29.0.1": {
+      "sha512": "gpNhpnv2K1f06Dhx+ky5YP649aViUgVDPbr48hgr8Jtilg8Oylx/kFeUKMnqw8tPROOmJEbSXob2WSYwqXeqZg==",
+      "type": "package",
+      "path": "bogus/29.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.29.0.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "Faker/1.2.0": {
+      "sha512": "FvYt17xHV8R0DGb3O5scLtiWK8RrBuG0feDAWuzdM1l1bS62JOuhNgf4BgJthGFYZrEMKoU5XgCODLtXpS0cvw==",
+      "type": "package",
+      "path": "faker/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "faker.1.2.0.nupkg.sha512",
+        "faker.nuspec",
+        "lib/Faker.dll"
+      ]
+    },
+    "NaughtyStrings.Bogus/2.1.0": {
+      "sha512": "eLE+iw7LKoIdntKIQgILV0VgueMcLQJ6CiZB7orVIT2hi0s6v5nHB/2n3sHipNrLYbdyyGZ52ZuhF8UtK/bqZQ==",
+      "type": "package",
+      "path": "naughtystrings.bogus/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/NaughtyStrings.Bogus.dll",
+        "lib/netstandard2.0/NaughtyStrings.Bogus.xml",
+        "naughtystrings.bogus.2.1.0.nupkg.sha512",
+        "naughtystrings.bogus.nuspec"
+      ]
+    },
+    "WaffleGenerator/4.0.2": {
+      "sha512": "2akStk8Rr4Mv5wgcK+rJdwgIErHrrij8V4KYNMPjZ15fr3Nbc1ncwp0SzL7EXHWugShi0rgA+MYRBK9hNBIItw==",
+      "type": "package",
+      "path": "wafflegenerator/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/WaffleGenerator.dll",
+        "lib/netstandard2.0/WaffleGenerator.xml",
+        "wafflegenerator.4.0.2.nupkg.sha512",
+        "wafflegenerator.nuspec"
+      ]
+    },
+    "WaffleGenerator.Bogus/4.0.2": {
+      "sha512": "9gfF6sYYtJPSOip8FTdJIwG/ELxQgboFIDLMD7il8HbMIsKkuyVWvKXL0i3WygtSH5sbyVozGmwu0naCdrGxNg==",
+      "type": "package",
+      "path": "wafflegenerator.bogus/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/WaffleGenerator.Bogus.dll",
+        "lib/netstandard2.0/WaffleGenerator.Bogus.xml",
+        "wafflegenerator.bogus.4.0.2.nupkg.sha512",
+        "wafflegenerator.bogus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AutoBogus >= 2.8.0",
+      "Bogus >= 29.0.1",
+      "Faker >= 1.2.0",
+      "NaughtyStrings.Bogus >= 2.1.0",
+      "WaffleGenerator.Bogus >= 4.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/thomaslorenz/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/thomaslorenz/VsCodeProjects/BogusTestData/BogusTestData.csproj",
+      "projectName": "BogusTestData",
+      "projectPath": "/Users/thomaslorenz/VsCodeProjects/BogusTestData/BogusTestData.csproj",
+      "packagesPath": "/Users/thomaslorenz/.nuget/packages/",
+      "outputPath": "/Users/thomaslorenz/VsCodeProjects/BogusTestData/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/thomaslorenz/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AutoBogus": {
+            "target": "Package",
+            "version": "[2.8.0, )"
+          },
+          "Bogus": {
+            "target": "Package",
+            "version": "[29.0.1, )"
+          },
+          "Faker": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "NaughtyStrings.Bogus": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "WaffleGenerator.Bogus": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"Faker 1.2.0\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v3.1\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "Faker",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
